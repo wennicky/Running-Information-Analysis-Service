@@ -23,4 +23,9 @@ address
 ```
 git clone https://github.com/wennicky/Running-Information-Analysis-Service.git
 cd Running-Information-Analysis-Service
+docker-compose up -d
+mysql --host=127.0.0.1 --port=3306 --user=root --password=root
+mvn clean install
+cd target
+java -jar ./target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar
 ```

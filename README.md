@@ -2,9 +2,9 @@
 
 This is a Spring Boot Project.
 
-# Motivation
-
+Motivation:
 Provides running information analysis service based on runner's running information. Each RunningInformation has attributes:
+```
 runningId,
 latitude,
 longitude,
@@ -13,3 +13,9 @@ totalRunningTime,
 heartRate,
 Timestamp,
 userInfo
+```
+`userInfo` includes 
+```
+username,
+address
+```

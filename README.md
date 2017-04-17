@@ -20,4 +20,7 @@ username,
 address
 ```
 ## Usage
-git clone 
+```
+git clone https://github.com/wennicky/Running-Information-Analysis-Service.git
+cd Running-Information-Analysis-Service
+```

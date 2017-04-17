@@ -2,7 +2,7 @@
 
 This is a Spring Boot Project.
 
-Motivation:
+## Motivation
 Provides running information analysis service based on runner's running information. Each RunningInformation has attributes:
 ```
 runningId,
@@ -19,3 +19,5 @@ userInfo
 username,
 address
 ```
+## Usage
+git clone 
